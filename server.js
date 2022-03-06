@@ -20,9 +20,8 @@ app.get("/notes", function (req, res) {
 })
 
 
-// GET, POST, DELETE API Endpoints.
+// GET, POST, DELETE API Endpoints
 app.route("/api/notes")
-  
     .get(function (req, res) {
         res.json(database);
     })
@@ -30,7 +29,6 @@ app.route("/api/notes")
     .post(function (req, res) {
         let jsonFilePath = path.join(__dirname, "/db/db.json");
         let newNote = req.body;
-
         let highestId = 99;
         for (let i = 0; i < database.length; i++) {
             let individualNote = database[i];

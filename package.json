@@ -6,15 +6,6 @@
     "scripts": {
       "test": "jest --watch"
     },
-    "keywords": [
-      "application",
-      "mysql",
-      "express",
-      "note",
-      "taker",
-      "coding",
-      "bootcamp"
-    ],
     "author": "Thomas Frohm",
     "license": "ISC",
     "bugs": {

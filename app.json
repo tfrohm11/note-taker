@@ -1,15 +1,8 @@
 {
     "name": "Note Taker Supreme",
     "description": "This app takes notes, retrieves notes, and deletes them as well.",
-    "keywords": [
-        "productivity",
-        "express",
-        "bootcamp",
-        "node",
-        "notes"
-    ],
     "website": "null",
-    "repository": "https://github.com/cml2377/Note-Taker",
+    "repository": "https://github.com/tfrohm11/note-taker",
     "success_url": "/",
     "formation": {
         "web": {
