@@ -1,14 +1,10 @@
 {
     "name": "note-taker",
     "version": "1.0.0",
-    "description": "An app that can write, save, and delete notes.",
+    "description": "Application that allows user to make, save, and delete notes.",
     "main": "./Develop/public/assets/js/index.js",
     "scripts": {
       "test": "jest --watch"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/cml2377/Note-Taker.git"
     },
     "keywords": [
       "application",
@@ -19,12 +15,11 @@
       "coding",
       "bootcamp"
     ],
-    "author": "Crystal Ly",
+    "author": "Thomas Frohm",
     "license": "ISC",
     "bugs": {
-      "url": "https://github.com/cml2377/Note-Taker/issues"
+   
     },
-    "homepage": "https://github.com/cml2377/Note-Taker#readme",
     "dependencies": {
       "express": "^4.17.1",
       "jest": "^25.1.0",
